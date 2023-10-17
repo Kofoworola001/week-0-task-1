@@ -1,0 +1,250 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,500;1,600;1,700&display=swap');
+ *{
+    margin: 0;
+    overscroll-behavior: none;
+ }
+.header{
+    background-image: url(./images/header-img.png);
+    width: auto;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+} 
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 98px;
+    top: 58px;
+    margin-top: 10px;
+
+
+}
+
+.hero-banner{
+    color: white;
+    font: bolder;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 6rem;
+    
+}
+
+.btn1{
+    border-radius: 35px;
+    width: 180px;
+    height: 70px;
+    margin-top: 12rem;
+    border:0 ;
+    color: #48924f;
+    line-height: 27px;
+    font: bolder;
+
+}
+
+.services{
+    text-align: center;
+    font-size: 4rem;
+    color: #828282;
+    margin-top: 2rem;
+    
+} 
+
+
+.flower{
+margin-left: 37rem;
+padding-right: 5rem;
+margin-top: -1.7rem;
+
+
+}
+
+
+.collage{
+    display: flex;
+    width: auto;
+    height: 504px;
+    margin-left: 4rem;
+    
+}
+.collage div{
+    /* text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px 0px #10331E1A;
+    background: #FFFFFF;
+    margin-left: 2rem; */
+
+    margin: 2rem;
+}
+
+.rec1{
+    width: 385px ;
+    height: 500px;
+    border-radius: 30px;
+    float: right;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+}
+
+.rec2{
+    width: 385px ;
+    height: 500px;
+    border-radius: 30px;
+    float: left;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+.rec3{
+    width: 385px ;
+    height: 500px;
+    border-radius: 30px;
+    float: left;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+.butt1{
+    border-radius: 35px;
+    width: 180px;
+    height: 70px;
+    margin-top: 100px;
+    border:0 ;
+    color: #48924f;
+    background-color: white;
+    line-height: 27px;
+    font: bolder;
+    margin-left: 630px;
+    box-shadow: 0 5px 10px 5px rgba(19, 125, 8, 0.1);
+}
+
+.abt1{
+    text-align: center;
+    font-size: 4rem;
+    color: #828282;
+    margin-top: 2rem;
+    
+}
+
+.section2{
+    background-image: url(./images/middle.png);
+    width: auto;
+    padding: 100px 50px 50px 0px ;
+    height: 550px;
+
+
+}
+
+.sec2parai{
+    width: 385px ;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.sec2paraii{
+    width: 385px ;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.sec2paraiii{
+    width: 385px ;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+
+.button-down{
+    
+    /* margin: 2rem; */
+   
+      width: auto;
+      height: 350px;
+    
+
+}
+
+.button-down-l{
+    
+     margin: 2rem;
+     border-radius: 40px;
+       width: 350px;
+       height: 250px;
+        color: #6cb981;
+        margin-left: 300px;
+        margin-top: 150px;
+    float: left;
+}
+
+.bt1{
+    border-radius: 35px;
+    width: 350px;
+    height: 60px;
+    margin-top: 00px;
+    border:0 ;
+    background-color: rgb(5, 190, 8);
+    opacity: 50%;
+}
+
+.bt2{
+    border-radius: 35px;
+    width: 350px;
+    height: 60px;
+    margin-top: 00px;
+    border:0 ;
+    background-color: rgb(5, 190, 8);
+    opacity: 50%;
+}
+
+.bt3{
+    border-radius: 35px;
+    width: 350px;
+    height: 60px;
+    margin-top: 00px;
+    border:0 ;
+    background-color: rgb(5, 190, 8);
+    opacity: 50%;
+}
+.bt4{
+    border-radius: 35px;
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    border:5px, solid, green ;
+    background-color: white;
+    margin-left: 75px;
+    opacity: 50%;
+}
+
+.button-down-r{
+    
+    margin: 2rem;
+   
+      width: 150px;
+      height: 240px;
+      float: right;
+       margin-right: 500px;
+       margin-top: 180px;
+
+}
+
+
+
+.footer{
+    text-align: center;
+    font-size: 3rem;
+    color: #828282;
+    margin-top: 2rem;
+}
